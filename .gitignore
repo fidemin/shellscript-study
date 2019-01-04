@@ -1,6 +1,9 @@
 # vim
 *.swp
 
+# extra
+*.tar*
+
 # Prerequisites
 *.d
 

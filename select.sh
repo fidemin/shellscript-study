@@ -1,0 +1,24 @@
+#!/usr/local/bin/bash
+
+while :
+do
+	echo "Menu:"
+	echo "1) list file"
+	echo "2) current directory"
+	echo "3) exit"
+	read number
+	clear
+	case $number in
+		1)
+			ls
+			;;
+		2)
+			pwd
+			;;
+		3)
+			exit
+			;;
+		*)
+			echo "Error: Unkown Command"
+	esac
+done
