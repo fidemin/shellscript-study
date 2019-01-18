@@ -1,6 +1,6 @@
 #!/usr/local/bin/bash
 
-tty=`tty`
+tty=$(tty)
 while read question
 do
 	echo $question
